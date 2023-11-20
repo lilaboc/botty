@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tesseract = "*"
+mouse = "*"
+numpy = "*"
+keyboard = "*"
+beautifultable = "*"
+parse = "*"
+cryptography = "*"
+colorama = "*"
+pyparsing = "*"
+psutil = "*"
+opencv-python = "==4.5.5.64"
+pywin32 = "*"
+rapidfuzz = "==2.15.1"
+transitions = "*"
+dataclasses-json = "*"
+pytweening = "*"
+requests = "*"
+"discord.py" = "==1.7.3"
+tesserocr = {path = "./tesserocr-2.6.0-cp311-cp311-win_amd64.whl"}
+pillow = "*"
+mss = "==7.0.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
